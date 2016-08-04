@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #29a3a3;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.levo {
+  float: left;
+  margin-right: 10px;
+}
+
+.desno {
+  float: right;
+}
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
